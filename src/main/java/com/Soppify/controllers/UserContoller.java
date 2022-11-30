@@ -1,4 +1,4 @@
-package com.Soppify.controllers;
+package com.Soppify.Controllers;
 
 import java.util.List;
 
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.Soppify.exceptions.CategoryException;
-import com.Soppify.exceptions.CustomerException;
-import com.Soppify.exceptions.ProductException;
-import com.Soppify.models.Product;
-import com.Soppify.repositories.ProductRepo;
-import com.Soppify.services.UserService;
+import com.Soppify.Entity.Product;
+import com.Soppify.Exceptions.CategoryException;
+import com.Soppify.Exceptions.CustomerException;
+import com.Soppify.Exceptions.ProductException;
+import com.Soppify.Repositories.ProductRepo;
+import com.Soppify.Services_Impl.UserService;
 
 @RestController
 @RequestMapping("/user")

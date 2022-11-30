@@ -1,11 +1,11 @@
-package com.Soppify.services;
+package com.Soppify.Services_Impl;
 
 import java.util.List;
 
-import com.Soppify.exceptions.CategoryException;
-import com.Soppify.exceptions.CustomerException;
-import com.Soppify.exceptions.ProductException;
-import com.Soppify.models.Product;
+import com.Soppify.Entity.Product;
+import com.Soppify.Exceptions.CategoryException;
+import com.Soppify.Exceptions.CustomerException;
+import com.Soppify.Exceptions.ProductException;
 
 public interface UserService {
 

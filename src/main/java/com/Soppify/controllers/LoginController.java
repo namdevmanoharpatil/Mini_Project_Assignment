@@ -1,4 +1,4 @@
-package com.Soppify.controllers;
+package com.Soppify.Controllers;
 
 import java.time.LocalDateTime;
 
@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.Soppify.DTO.CustomerDto;
-import com.Soppify.exceptions.AdminException;
-import com.Soppify.exceptions.CustomerException;
-import com.Soppify.models.Admin;
-import com.Soppify.models.AdminCurrentSession;
-import com.Soppify.models.AdminDto;
-import com.Soppify.models.CustomerCurrentSession;
-import com.Soppify.models.User;
-import com.Soppify.repositories.AdminCurrentSessionRepo;
-import com.Soppify.repositories.AdminRepo;
-import com.Soppify.services.LoginService;
-import com.Soppify.services.LoginServiceImpl;
+import com.Soppify.Entity.Admin;
+import com.Soppify.Entity.AdminCurrentSession;
+import com.Soppify.Entity.AdminDto;
+import com.Soppify.Entity.CustomerCurrentSession;
+import com.Soppify.Entity.User;
+import com.Soppify.Exceptions.AdminException;
+import com.Soppify.Exceptions.CustomerException;
+import com.Soppify.Repositories.AdminCurrentSessionRepo;
+import com.Soppify.Repositories.AdminRepo;
+import com.Soppify.Services_Impl.LoginService;
+import com.Soppify.Services_Impl.LoginServiceImpl;
 
 import net.bytebuddy.utility.RandomString;
 

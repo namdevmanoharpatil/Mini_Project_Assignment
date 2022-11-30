@@ -1,4 +1,4 @@
-package com.Soppify.services;
+package com.Soppify.Services_Impl;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -7,18 +7,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.Soppify.DTO.CustomerDto;
-import com.Soppify.exceptions.AdminException;
-import com.Soppify.exceptions.CustomerException;
-import com.Soppify.models.Admin;
-import com.Soppify.models.AdminCurrentSession;
-import com.Soppify.models.AdminDto;
-import com.Soppify.models.Cart;
-import com.Soppify.models.CustomerCurrentSession;
-import com.Soppify.models.User;
-import com.Soppify.repositories.AdminCurrentSessionRepo;
-import com.Soppify.repositories.AdminRepo;
-import com.Soppify.repositories.CustomerCurrentSessionRepo;
-import com.Soppify.repositories.CustomerRepo;
+import com.Soppify.Entity.Admin;
+import com.Soppify.Entity.AdminCurrentSession;
+import com.Soppify.Entity.AdminDto;
+import com.Soppify.Entity.Cart;
+import com.Soppify.Entity.CustomerCurrentSession;
+import com.Soppify.Entity.User;
+import com.Soppify.Exceptions.AdminException;
+import com.Soppify.Exceptions.CustomerException;
+import com.Soppify.Repositories.AdminCurrentSessionRepo;
+import com.Soppify.Repositories.AdminRepo;
+import com.Soppify.Repositories.CustomerCurrentSessionRepo;
+import com.Soppify.Repositories.CustomerRepo;
 
 import net.bytebuddy.utility.RandomString;
 

@@ -1,22 +1,22 @@
-package com.Soppify.services;
+package com.Soppify.Services_Impl;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Soppify.exceptions.AdminException;
-import com.Soppify.exceptions.CategoryException;
-import com.Soppify.exceptions.ProductException;
-import com.Soppify.models.Admin;
-import com.Soppify.models.AdminCurrentSession;
-import com.Soppify.models.AdminDto;
-import com.Soppify.models.Category;
-import com.Soppify.models.Product;
-import com.Soppify.repositories.AdminCurrentSessionRepo;
-import com.Soppify.repositories.AdminRepo;
-import com.Soppify.repositories.CategoryRepo;
-import com.Soppify.repositories.ProductRepo;
+import com.Soppify.Entity.Admin;
+import com.Soppify.Entity.AdminCurrentSession;
+import com.Soppify.Entity.AdminDto;
+import com.Soppify.Entity.Category;
+import com.Soppify.Entity.Product;
+import com.Soppify.Exceptions.AdminException;
+import com.Soppify.Exceptions.CategoryException;
+import com.Soppify.Exceptions.ProductException;
+import com.Soppify.Repositories.AdminCurrentSessionRepo;
+import com.Soppify.Repositories.AdminRepo;
+import com.Soppify.Repositories.CategoryRepo;
+import com.Soppify.Repositories.ProductRepo;
 
 import net.bytebuddy.utility.RandomString;
 

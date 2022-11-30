@@ -1,4 +1,4 @@
-package com.Soppify.services;
+package com.Soppify.Services_Impl;
 
 import java.util.Collections;
 import java.util.List;
@@ -7,21 +7,21 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Soppify.comparators.HighToLowByPrice;
-import com.Soppify.comparators.HighToLowByRatings;
-import com.Soppify.comparators.LowToHighByPrice;
-import com.Soppify.comparators.LowToHighByRatings;
-import com.Soppify.exceptions.CategoryException;
-import com.Soppify.exceptions.CustomerException;
-import com.Soppify.exceptions.ProductException;
-import com.Soppify.models.Category;
-import com.Soppify.models.CustomerCurrentSession;
-import com.Soppify.models.Product;
-import com.Soppify.models.User;
-import com.Soppify.repositories.CategoryRepo;
-import com.Soppify.repositories.CustomerCurrentSessionRepo;
-import com.Soppify.repositories.CustomerRepo;
-import com.Soppify.repositories.ProductRepo;
+import com.Soppify.Comparators.HighToLowByPrice;
+import com.Soppify.Comparators.HighToLowByRatings;
+import com.Soppify.Comparators.LowToHighByPrice;
+import com.Soppify.Comparators.LowToHighByRatings;
+import com.Soppify.Entity.Category;
+import com.Soppify.Entity.CustomerCurrentSession;
+import com.Soppify.Entity.Product;
+import com.Soppify.Entity.User;
+import com.Soppify.Exceptions.CategoryException;
+import com.Soppify.Exceptions.CustomerException;
+import com.Soppify.Exceptions.ProductException;
+import com.Soppify.Repositories.CategoryRepo;
+import com.Soppify.Repositories.CustomerCurrentSessionRepo;
+import com.Soppify.Repositories.CustomerRepo;
+import com.Soppify.Repositories.ProductRepo;
 
 @Service
 public class UserServiceImpl implements UserService {

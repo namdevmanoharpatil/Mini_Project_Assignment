@@ -1,4 +1,4 @@
-package com.Soppify.models;
+package com.Soppify.Entity;
 
 import java.util.ArrayList;
 import java.util.List;

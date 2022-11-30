@@ -1,4 +1,4 @@
-package com.Soppify.controllers;
+package com.Soppify.Controllers;
 
 import javax.validation.Valid;
 import javax.websocket.server.PathParam;
@@ -15,15 +15,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.Soppify.exceptions.AdminException;
-import com.Soppify.exceptions.CategoryException;
-import com.Soppify.exceptions.ProductException;
-import com.Soppify.models.Admin;
-import com.Soppify.models.AdminDto;
-import com.Soppify.models.Category;
-import com.Soppify.models.Product;
-import com.Soppify.repositories.AdminRepo;
-import com.Soppify.services.AdminService;
+import com.Soppify.Entity.Admin;
+import com.Soppify.Entity.AdminDto;
+import com.Soppify.Entity.Category;
+import com.Soppify.Entity.Product;
+import com.Soppify.Exceptions.AdminException;
+import com.Soppify.Exceptions.CategoryException;
+import com.Soppify.Exceptions.ProductException;
+import com.Soppify.Repositories.AdminRepo;
+import com.Soppify.Services_Impl.AdminService;
 
 import net.bytebuddy.utility.RandomString;
 

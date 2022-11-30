@@ -1,8 +1,8 @@
-package com.Soppify.repositories;
+package com.Soppify.Repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.Soppify.models.AdminCurrentSession;
+import com.Soppify.Entity.AdminCurrentSession;
 
 public interface AdminCurrentSessionRepo extends JpaRepository<AdminCurrentSession, String>{
 

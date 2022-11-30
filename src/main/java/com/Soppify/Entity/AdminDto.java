@@ -1,4 +1,4 @@
-package com.Soppify.models;
+package com.Soppify.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

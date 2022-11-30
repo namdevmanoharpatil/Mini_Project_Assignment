@@ -1,12 +1,12 @@
-package com.Soppify.services;
+package com.Soppify.Services_Impl;
 
-import com.Soppify.exceptions.AdminException;
-import com.Soppify.exceptions.CategoryException;
-import com.Soppify.exceptions.ProductException;
-import com.Soppify.models.Admin;
-import com.Soppify.models.AdminDto;
-import com.Soppify.models.Category;
-import com.Soppify.models.Product;
+import com.Soppify.Entity.Admin;
+import com.Soppify.Entity.AdminDto;
+import com.Soppify.Entity.Category;
+import com.Soppify.Entity.Product;
+import com.Soppify.Exceptions.AdminException;
+import com.Soppify.Exceptions.CategoryException;
+import com.Soppify.Exceptions.ProductException;
 
 public interface AdminService {
 

@@ -1,4 +1,4 @@
-package com.Soppify.models;
+package com.Soppify.Entity;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

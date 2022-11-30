@@ -1,4 +1,4 @@
-package com.Soppify.exceptions;
+package com.Soppify.Exceptions;
 
 public class AdminException extends Exception{
 

@@ -1,12 +1,12 @@
-package com.Soppify.services;
+package com.Soppify.Services_Impl;
 
 import com.Soppify.DTO.CustomerDto;
-import com.Soppify.exceptions.AdminException;
-import com.Soppify.exceptions.CustomerException;
-import com.Soppify.models.AdminCurrentSession;
-import com.Soppify.models.AdminDto;
-import com.Soppify.models.CustomerCurrentSession;
-import com.Soppify.models.User;
+import com.Soppify.Entity.AdminCurrentSession;
+import com.Soppify.Entity.AdminDto;
+import com.Soppify.Entity.CustomerCurrentSession;
+import com.Soppify.Entity.User;
+import com.Soppify.Exceptions.AdminException;
+import com.Soppify.Exceptions.CustomerException;
 
 public interface LoginService {
 
